@@ -1,7 +1,7 @@
-const axios = require('axios');
-const crypto = require('crypto');
-const fs = require('fs');
-const FormData = require('form-data');
+import axios from 'axios';
+import crypto from 'crypto';
+import fs from 'fs';
+import FormData from 'form-data';
 
 // These parameters should be used for all requests
 const SUMSUB_APP_TOKEN = 'YOUR_SUMSUB_APP_TOKEN'; // Example: sbx:uY0CgwELmgUAEyl4hNWxLngb.0WSeQeiYny4WEqmAALEAiK2qTC96fBad - Please don't forget to change when switching to production
