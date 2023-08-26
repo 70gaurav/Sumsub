@@ -1,4 +1,4 @@
-import Connection from ".";
+import Connection from "./index.js";
 
 const Customer = (sequelize, Sequelize) => { 
   return sequelize.define('customer', {
