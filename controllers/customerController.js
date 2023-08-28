@@ -33,7 +33,7 @@ export const signup = async (req, res) => {
 					.catch(err => {
 						return res.json({
 							"status_code": 422,
-							"message": "Some error occurred while registering user." + err
+							"message": "Some error occurred while registering user:" + err
 						});
 					});
 			} else {
